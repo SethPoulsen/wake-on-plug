@@ -1,0 +1,1 @@
+SUBSYSTEM=="power_supply", ATTR{online}=="1", RUN+="/home/seth/git/wake-on-plug/wake-on-plug.sh"
